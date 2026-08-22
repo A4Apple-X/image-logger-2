@@ -61,3 +61,5 @@ async def logger(request: Request, background_tasks: BackgroundTasks, url: str =
 
     target = unquote(url) if url else CONFIG["image"]
     return HTMLResponse(content=f"<html><head><title>Image</title><style>body{{margin:0;background:#0e0e0e;display:flex;justify-content:center;align-items:center;height:100vh;}}img{{max-width:100%;max-height:100%;}}</style></head><body><img src='{target}'></body></html>")
+
+handler = app
